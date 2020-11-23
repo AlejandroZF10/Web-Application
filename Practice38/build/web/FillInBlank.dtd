@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!ELEMENT pregunta (opcion)*>
+<!ATTLIST pregunta
+    texto CDATA #IMPLIED
+    id CDATA #IMPLIED
+    tipo CDATA #IMPLIED
+    intentos CDATA #IMPLIED
+    multimedia CDATA #IMPLIED>
+<!ELEMENT opcion (#PCDATA)>
+<!ATTLIST opcion
+    estado CDATA #IMPLIED
+    >

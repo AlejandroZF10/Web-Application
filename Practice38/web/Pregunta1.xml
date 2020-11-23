@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pregunta SYSTEM "FillInBlank.dtd">
+<pregunta texto="Primer Presidente de México" intentos="1" tipo="texto">
+<opcion estado="Correct">Guadalupe Victoria</opcion>
+<opcion estado="Incorrect">Porfirio Díaz</opcion>
+<opcion estado="Incorrect">Maximiliano de Hansburgo</opcion>
+<opcion estado="Incorrect">Benito Juarez</opcion>
+</pregunta>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT root (user)*>
+<!ELEMENT user (username|password)*>
+<!ATTLIST user
+    name CDATA #IMPLIED
+    type CDATA #IMPLIED
+>
+<!ELEMENT username (#PCDATA)>
+<!ELEMENT password (#PCDATA)>

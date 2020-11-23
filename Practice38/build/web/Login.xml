@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!DOCTYPE root SYSTEM "Login.dtd">
+<root>
+	<user name = "admin1" type = "1">
+		<username>Alejandro</username>
+		<password>Zepeda</password>
+	</user>
+	<user name = "admin2" type = "1">
+		<username>Alexis</username>
+		<password>Garcia</password>
+	</user>
+	<user name = "profesor1" type = "2">
+		<username>Ruben</username>
+		<password>Peredo</password>
+	</user>
+	<user name = "estudiante1" type = "3">
+		<username>Gabriela</username>
+		<password>Martinez</password>
+	</user>
+</root>

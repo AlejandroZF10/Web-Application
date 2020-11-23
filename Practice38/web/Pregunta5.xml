@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pregunta SYSTEM "FillInBlank.dtd">
+<pregunta texto="Videojuego" intentos="3" tipo="Video" multimedia="Video1.mp4">
+<opcion estado="Correct">FIFA19</opcion>
+<opcion estado="Incorrect">Call Of Duty</opcion>
+<opcion estado="Incorrect">Guitar Hero</opcion>
+<opcion estado="Incorrect">Halo</opcion>
+</pregunta>

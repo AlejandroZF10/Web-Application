@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pregunta SYSTEM "FillInBlank.dtd">
+<pregunta texto="Equipo campeon" intentos="3" tipo="Image" multimedia="Azul.jpg">
+<opcion estado="Incorrect">Cruz Azul</opcion>
+<opcion estado="Correct">Cruz Azul</opcion>
+<opcion estado="Incorrect">Cruz Azul</opcion>
+<opcion estado="Incorrect">Cruz Azul</opcion>
+</pregunta>

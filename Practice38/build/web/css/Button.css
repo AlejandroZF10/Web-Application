@@ -1,0 +1,31 @@
+body{
+    padding: 10px;
+}
+.animate{
+    transition: all 0.1s;
+    -webkit-transition: all 0.1s;
+}
+.action-button{
+    position: relative;
+    padding: 10px 10px;
+    margin: 0px 0px 0px 0px;
+    text-align:center;
+    vertical-align:middle;
+    border-radius: 10px;
+    font-family: "Roboto", helvetica, arial, sans-serif;
+    font-size: 15px;
+    color: #FFF;
+    text-decoration: none;	
+}
+.blue{
+    background-color: #3498DB;
+    text-shadow: 0px 0px #2980B9;
+}
+.red{
+    background-color: #E74C3C;
+    text-shadow: 0px 0px #BD3E31;
+}
+.green{
+    background-color: #82BF56;
+    text-shadow: 0px 0px #669644;
+}

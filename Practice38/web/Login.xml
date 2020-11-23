@@ -1,0 +1,10 @@
+<student>
+    <user name = "admin1" type = "1">
+	<username>Alejandro</username>
+	<password>Tecnologias</password>
+    </user>
+    <user name = "admin2" type = "1">
+	<username>Alexis</username>
+	<password>Web</password>
+    </user>
+</student>

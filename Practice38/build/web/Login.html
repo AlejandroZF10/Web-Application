@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href = "https://unpkg.com/material-components-web/dist/material-components-web.min.css">
+        <link rel="stylesheet" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css">
+        <link rel="stylesheet" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js">
+    </head>
+    <style>
+        body{
+            align-items: center;
+            text-align: center;
+            background: url("Fondo-Login.jpg") no-repeat;
+            background-attachment:scroll;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            width:100%;
+        }
+        .Fuente{
+            font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial, sans-serif;
+        }
+        .divisor{
+            position: relative;
+            margin: 10% auto;
+            border-style: solid;
+            border-radius: 10px;
+            padding: 0px 40px 20px 40px;
+            background-color:  #eaeded ;
+            display: inline-block;
+        }
+    </style>
+    <body class="mdc-typography">
+        <div class="divisor">
+            <h1 class="Fuente">LOGIN</h1>
+            <form method="post" action="ServletLogin">
+                <p class="Fuente">ID usuario: <input type="text" name="id"/></p>
+                <p class="Fuente">Password: <input type="password" name="password"/></p><br> 
+                <button class="mdc-button mdc-button--raised"> Iniciar Sesion </button>
+            </form>
+    	</div>
+    </body>
+</html>

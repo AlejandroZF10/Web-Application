@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pregunta SYSTEM "FillInBlank.dtd">
+<pregunta texto="Capital de Alemania" intentos="1" tipo="texto">
+<opcion estado="Incorrect">Leipzing</opcion>
+<opcion estado="Incorrect">Dortmund</opcion>
+<opcion estado="Incorrect">Munich</opcion>
+<opcion estado="Correct">Berlin</opcion>
+</pregunta>

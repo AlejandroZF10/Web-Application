@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pregunta SYSTEM "FillInBlank.dtd">
+<pregunta texto="¿Cuál es mi nombre?" intentos="3" tipo="texto">
+<opcion estado="Correct">Alejandro</opcion>
+<opcion estado="Incorrect">Jesús</opcion>
+<opcion estado="Incorrect">Alexis</opcion>
+<opcion estado="Incorrect">Javier</opcion>
+</pregunta>
