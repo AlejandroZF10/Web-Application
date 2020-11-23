@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pregunta SYSTEM "preguntaDTDHot.dtd">
+<pregunta texto="Hola" id="preguntaH3" tipo="H"><opcion estado="correcto" multimedia="Azul.jpg">Alejandro</opcion></pregunta>

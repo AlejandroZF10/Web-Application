@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pregunta SYSTEM "preguntaDTDMultiple.dtd">
+<pregunta multimedia="no" texto="savasvas" id="1" tipo="M"><opcion estado="correcto">vsavsav</opcion><opcion estado="incorrecto">asvsavs</opcion></pregunta>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE root SYSTEM "usersDTD.dtd">
+<root>
+    <user id="0" type="1">
+        <name>ajitzi</name>
+        <password>ricardo</password>
+    </user>
+    <user id="1" type="2">
+        <name>jony</name>
+        <password>elmejor</password>
+    </user>
+    <user id="2" type="3">
+        <name>lastiri</name>
+        <password>niñita</password>
+    </user>
+    <user id="4" type="2">
+        <name>arvid</name>
+        <password>12345</password>
+    </user>
+    
+</root>

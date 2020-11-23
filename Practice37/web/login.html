@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="us">
+    <head>
+        <title>Simply Login</title>
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width = device-width, initial-scale=1 " ><!--Esta linea y la de arriba son las que recomendaba la pagina del framework que incluyeramos para el uso adecuado de este-->
+        <link type="text/css" rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/hot-sneaks/jquery-ui.css" /><!--llamamos de manera remota los archivos que necesitamos para generar los estilos de nuestro framework y nuestro tema "Hot Sneaks"-->
+        <link rel="stylesheet" href="fondoYletra.css"><!--Esta es la hoja de estilo en cascada que contiene la letra, el fondo y la division main para que aparezca el contenido a la mitad de la ventana-->
+        <style>
+            .login{
+                border: 3px solid #000000;
+                border-radius: 5px;
+                padding: 10px;
+                width: 300px; 
+                position: absolute;
+                top: 30%;
+                left: 37%;
+                background-color: #FFFFFF;
+
+            }
+            #button{
+                width: 100%;
+                margin: 20px 0px 0px 0px;
+            }
+            #cont{
+                padding: 0px;
+                border: 0px;
+                margin: 10px 10px 10px 10px;
+            }
+            #autocomplete{
+                width: 100%;
+                height: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <form method="post" action="ServletLogin" class="login"><!--El servlet que vamos a utilizar para validar-->
+            <div id="cont">
+                <h2>ID</h2> <input type="text" name="id" id="autocomplete" placeholder="Escribe tu usuario" /><br><!--El parametro ID-->
+                <h2>Password</h2> <input type="password" id="autocomplete" name="password" placeholder="Escribe tu password" /><br> <!--La contraseña del ID de arriba-->           
+                <button id="button" type="submit">Entrar</button>
+            </div>
+        </form>      
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><!--Son los links para llamar de manera remota JQuery que es un lenguaje basado en java script y el framework JQuery UI-->
+        <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+        <script>
+            $("#button").button(); //script para darle los estilos al boton
+        </script>
+    </body>
+</html>
