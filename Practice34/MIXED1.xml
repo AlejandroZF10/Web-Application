@@ -1,0 +1,17 @@
+<!DOCTYPE raiz1
+[
+<!ELEMENT raiz1 (ESCOM)>
+<!ELEMENT ESCOM (ALUMNO+)>
+<!ELEMENT ALUMNO (NOMBRE)>
+<!ELEMENT NOMBRE (#PCDATA|REGULAR|IRREGULAR) >
+<!ELEMENT TIPO ANY>
+]>
+
+
+<raiz1>
+    <ESCOM>
+        <ALUMNO>
+            <NOMBRE>TONTO</NOMBRE>
+        </ALUMNO>
+    </ESCOM>
+</raiz1>

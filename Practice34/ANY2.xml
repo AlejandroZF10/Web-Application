@@ -1,0 +1,19 @@
+<!DOCTYPE raiz1
+[
+<!ELEMENT raiz1 (ALUMNO)>
+<!ELEMENT MONSTER (SUSTANCIA+)>
+<!ELEMENT SUSTANCIA (COMPUESTO+)>
+<!ELEMENT COMPUESTO (TIPO)>
+<!ELEMENT TIPO ANY>
+]>
+
+
+<raiz1>
+    <MONSTER>
+        <SUSTANCIA>
+            <COMPUESTO>
+                <TIPO>MALA</TIPO>
+            </COMPUESTO>
+        </SUSTANCIA>
+    </MONSTER>
+</raiz1>

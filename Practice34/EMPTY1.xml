@@ -1,0 +1,18 @@
+<!DOCTYPE raiz1
+[
+<!ELEMENT raiz1 (ESCOM)>
+<!ELEMENT ESCOM (ALUMNO+)>
+<!ELEMENT ALUMNO (NOMBRE,CREDENCIAL)>
+<!ELEMENT NOMBRE (#PCDATA)>
+<!ELEMENT CREDENCIAL EMPTY>
+]>
+
+
+<raiz1>
+    <ESCOM>
+        <ALUMNO>
+            <NOMBRE>JORGE</NOMBRE>
+            </CREDENCIAL></CREDENCIAL>
+        </ALUMNO>
+    </ESCOM>
+</raiz1>

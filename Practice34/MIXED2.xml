@@ -1,0 +1,17 @@
+<!DOCTYPE raiz1
+[
+<!ELEMENT raiz1 (BANCO)>
+<!ELEMENT ESCOM (BILLETE+)>
+<!ELEMENT ALUMNO (NOMBRE)>
+<!ELEMENT NOMBRE (#PCDATA|DOLAR|PESO) >
+<!ELEMENT TIPO ANY>
+]>
+
+
+<raiz1>
+    <BANCO>
+        <BILLETE>
+            <TIPO>LIBRAS</TIPO>
+        </BILLETE>
+    </BANCO>
+</raiz1>

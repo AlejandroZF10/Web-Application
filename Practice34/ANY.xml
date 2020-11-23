@@ -1,0 +1,16 @@
+<!DOCTYPE raiz1
+[
+<!ELEMENT raiz1 (ALUMNO)>
+<!ELEMENT COMPUESTO (ELEMENTO+)>
+<!ELEMENT ELEMENTO (TIPO)>
+<!ELEMENT TIPO ANY>
+]>
+
+
+<raiz1>
+    <COMPUESTO>
+        <ELEMENTO>
+            <TIPO>METAL PRECIOSO</TIPO>
+        </ELEMENTO>
+    </COMPUESTO>
+</raiz1>
